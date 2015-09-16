@@ -1,0 +1,58 @@
+/* this is where all of your CSS styles go */
+
+#container {
+
+	width: 600px;
+	height: 400px;
+	outline-style: solid;
+	outline-color: black;
+	position: relative;
+	overflow: hidden;
+
+
+}
+
+#flagbase {
+
+	
+	border-bottom: 400px solid #0000FF;
+	border-left: 600px solid #00FF00;
+
+
+}
+
+
+
+#yellowline {
+
+border-left: #FFFF00 180px solid;
+height: 850px;
+right: 0px;
+left: 190px;
+top: -145px;
+bottom: 0px;
+position: absolute;
+
+-webkit-transform: rotate(45deg); /* for  safarri and chrome */
+-moz-transform: rotate(56.5deg);  /* for ie mozilla */
+-ms-transform: rotate(45deg);  /* for ie explorer */
+
+	
+}
+
+#blackline {
+
+border-left: #000000 120px solid;
+height: 850px;
+right: 0px;
+left: 190px;
+top: -110px;
+bottom: 0px;
+position: absolute;
+
+-webkit-transform: rotate(45deg); /* for  safarri and chrome */
+-moz-transform: rotate(56.5deg);  /* for ie mozilla */
+-ms-transform: rotate(45deg);  /* for ie explorer */
+
+
+}
